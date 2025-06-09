@@ -65,12 +65,5 @@ Do you want to shop again? yes or No !!
 n
 Thanks for shopping!!
 
-🚀 How to Run
-
-1. Clone or download this repository.
-2. Compile the program using any C++ compiler:
-
 g++ shopping.cpp -o shopping
 ./shopping
-On Windows, you can use IDEs like Code::Blocks, Dev-C++, or Turbo C++.
-
