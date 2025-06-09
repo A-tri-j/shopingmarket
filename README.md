@@ -29,4 +29,22 @@ This project demonstrates a basic **shopping experience** through the terminal. 
 ✅ Input validation with fallback  
 
 ## 📸 Sample Output
+Please press S to start shopping
+s
+******************Welcome To Online Shopping ***************************
+***************** Please Follow the Instructions************************
+(1) Enter m to order Mobile phone
+(2) Enter l to order Laptop
+(3) Enter d to order Desktop
+(4) Enter h to order Headphone
+(5) Enter s to order Speaker
+...
+Total Bill Amount = 40000
+Enter your payment type:
+Use UPI - Type 'upi' || Cash on delivery - Type 'cash'
+upi
+PAYMENT DONE
+Do you want to shop again? yes or No !!
+n
+Thanks for shopping!!
 
