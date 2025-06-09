@@ -65,5 +65,3 @@ Do you want to shop again? yes or No !!
 n
 Thanks for shopping!!
 
-g++ shopping.cpp -o shopping
-./shopping
