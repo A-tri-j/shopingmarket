@@ -2,33 +2,50 @@
 
 A beginner-friendly terminal-based online shopping application developed in **C++**, simulating item selection, billing, and payment systems.
 
+![Made with C++](https://img.shields.io/badge/Made%20with-C%2B%2B-blue)
+![Project Stage](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+---
+
 ## 💡 Project Overview
 
 This project demonstrates a basic **shopping experience** through the terminal. Users can:
+
 - Select categories like **Mobile Phones, Laptops, Desktops, Headphones, and Speakers**
 - Choose from various brands and models
-- Specify quantity
+- Specify quantity for each item
 - Get a dynamically calculated total bill
-- Choose payment type (UPI or Cash)
-- Shop again or exit
+- Choose a payment method (UPI or Cash on Delivery)
+- Option to shop again or exit
+
+It is built to strengthen C++ fundamentals like control flow, functions, and input/output operations.
+
+---
 
 ## 🔧 Technologies Used
 
 - **C++** (Standard Library: `iostream`, `string`)
-- Basic console input/output
-- Conditional statements and control flow
-- Functions and looping logic
+- Console Input/Output
+- Conditional Statements & Looping
+- Functions for modularity
+- `goto` control (for simplicity in this beginner project)
+
+---
 
 ## 📂 Features
 
-✅ Dynamic billing system  
-✅ Multiple category selections  
-✅ Quantity-based cost calculation  
-✅ Payment method selection  
-✅ Repeat shopping option  
-✅ Input validation with fallback  
+✅ Category-based product selection  
+✅ Brand/model and quantity input  
+✅ Auto-bill calculation  
+✅ Payment method selection (UPI / Cash)  
+✅ Option to shop again  
+✅ Input validation with re-prompting  
+
+---
 
 ## 📸 Sample Output
+
+```text
 Please press S to start shopping
 s
 ******************Welcome To Online Shopping ***************************
@@ -47,4 +64,13 @@ PAYMENT DONE
 Do you want to shop again? yes or No !!
 n
 Thanks for shopping!!
+
+🚀 How to Run
+
+1. Clone or download this repository.
+2. Compile the program using any C++ compiler:
+
+g++ shopping.cpp -o shopping
+./shopping
+On Windows, you can use IDEs like Code::Blocks, Dev-C++, or Turbo C++.
 
